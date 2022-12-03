@@ -46,7 +46,7 @@ dependencies{
 Step 3. Add crater sdk to your app level `build.gradle` file
 ```groovy
 dependencies {
-	implementation "com.github.sachinkumar53:CraterSdk:0.1.4"
+    implementation "com.github.sachinkumar53:CraterSdk:0.1.4"
 }
 ```
 
