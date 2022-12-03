@@ -16,14 +16,14 @@ An android library to integrate Crater app features inside your app.
 
 Step 1. Add the JitPack maven repository
 
-```groovy
+```gradle
 maven { url "https://jitpack.io"  }
 ```
 
 Step 2. Add Dagger hilt and Kotlinx serialization. You can Skip this step if it is already setup.
 
 Add these in your project level `build.gradle` file
-```groovy
+```gradle
 dependencies{
     classpath "com.google.dagger:hilt-android-gradle-plugin:2.43.2"
     classpath "org.jetbrains.kotlin:kotlin-serialization:1.7.20"
@@ -31,7 +31,7 @@ dependencies{
 ```
 
 Add these in your app level `build.gradle` file
-```groovy
+```gradle
 plugins {
     id 'dagger.hilt.android.plugin'
     id 'kotlin-kapt'
@@ -44,7 +44,7 @@ dependencies{
 ```
 
 Step 3. Add crater sdk to your app level `build.gradle` file
-```groovy
+```gradle
 dependencies {
     implementation "com.github.sachinkumar53:CraterSdk:0.1.4"
 }
