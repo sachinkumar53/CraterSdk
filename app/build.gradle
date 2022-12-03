@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-kapt'
-    id 'maven-publish'
 }
 
 android {
@@ -67,17 +66,4 @@ dependencies {
 
     implementation "com.google.dagger:hilt-android:2.43.2"
     kapt "com.google.dagger:hilt-compiler:2.43.2"
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release_apk
-                groupId = 'com.crater.android'
-                artifactId = 'crater-sdk'
-                version = '0.1.3'
-            }
-        }
-    }
 }

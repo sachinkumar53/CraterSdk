@@ -6,6 +6,7 @@ plugins {
     id 'kotlin-parcelize'
     id "kotlinx-serialization"
     id 'com.google.devtools.ksp' version '1.7.20-1.0.7'
+    id 'maven-publish'
 }
 
 android {
@@ -170,4 +171,18 @@ dependencies {
     implementation 'androidx.core:core-splashscreen:1.0.0'
 
     implementation 'com.google.crypto.tink:tink-android:1.7.0'
+}
+
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.crater.android'
+                artifactId = 'crater-sdk'
+                version = '0.1.3'
+            }
+        }
+    }
 }
