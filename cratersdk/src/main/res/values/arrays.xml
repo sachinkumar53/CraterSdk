@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="faq_questions">
+        <item>What is Crater?</item>
+        <item>What are the features?</item>
+        <item>Is Crater only for the Passion Economy?</item>
+        <item>What is Early Pay?</item>
+        <item>What is Revenue Management?</item>
+        <item>What is Expense Management?</item>
+        <item>Is my data safe?</item>
+    </string-array>
+
+    <string-array name="faq_answers">
+        <item>Crater is an all in one finance management app for the Passion Economy (Creators, Freelancers and Solo Entrepreneurs).</item>
+        <item>Features include Early Pay, Invoicing, Revenue Management, Expense Management, Payments, Digital Insurances and Tax Filing.</item>
+        <item>Yes! Crater’s features are personalized for the use of Creators, Freelancers and Solo Entrepreneurs.</item>
+        <item>Crater allow users to access their Invoice and Social Media earnings on demand. Users pay Crater the amount once the invoice is paid or they get the social media payout.</item>
+        <item>Users can track their revenue from all platforms and invoices in a single dashboard. Don’t have to open several different apps just to check statistics.</item>
+        <item>Crater organizes all the user’s transactions under a single dashboard. User can differentiate their business expense from personal expense.</item>
+        <item>Safety is priority for Crater. The data stored is encrypted and is not shared with any third party.</item>
+    </string-array>
+
+
+    <string-array name="features_have">
+        <item>Manual Invoice Creation</item>
+        <item>Track your expenses</item>
+        <item>Manage all your Social Media platforms at one place</item>
+    </string-array>
+
+    <string-array name="features_need">
+        <item>A Virtual Bank Account for your business</item>
+        <item>Accept payments from Social Media platforms, Invoices and Brand Deals</item>
+        <item>Track Business expenses by Using Crater cash for payments</item>
+        <item>Get rewarded every time you transact using Crater Cash</item>
+        <item>File taxes in less than 10 minutes</item>
+    </string-array>
+
+    <string-array name="crater_texts">
+        <item>Creators</item>
+        <item>Freelancers</item>
+        <item>Makers</item>
+        <item>Rebels</item>
+        <item>Leaders</item>
+        <item>Challengers</item>
+        <item>Go-getters</item>
+    </string-array>
+
+    <string-array name="tax_types">
+        <item>GST</item>
+        <item>TDS</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+</resources>

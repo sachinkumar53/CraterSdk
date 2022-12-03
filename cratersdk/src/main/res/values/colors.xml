@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="primary">#15FFC7</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_text">#F8FCFB</color>
+
+    <color name="black">#FF000000</color>
+
+    <color name="gray_text">#ACAEB1</color>
+
+    <!--    <color name="toolbar_color">#1C221F</color>-->
+</resources>
