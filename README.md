@@ -57,6 +57,7 @@ Step 5. Initialize Crater SDK in your application
 ```kotlin
 @HiltAndroidApp
 class YourApp : Application() {
+    
     override fun onCreate() {
         super.onCreate()
         Crater.initialize()
