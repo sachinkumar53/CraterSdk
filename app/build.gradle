@@ -50,21 +50,7 @@ android {
 
     publishing {
         singleVariant('release') {
-
-        }
-    }
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-
-                groupId = 'com.crater.android'
-                artifactId = 'crater-sdk'
-                version = '0.1.0'
-            }
+            withSourcesJar()
         }
     }
 }
@@ -87,4 +73,21 @@ dependencies {
 
     implementation "com.google.dagger:hilt-android:2.43.2"
     kapt "com.google.dagger:hilt-compiler:2.43.2"
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+//                from components.release
+
+                groupId = 'com.crater.android'
+                artifactId = 'crater-sdk'
+                version = '0.1.2'
+                afterEvaluate {
+                    from components.release
+                }
+            }
+        }
+    }
 }
