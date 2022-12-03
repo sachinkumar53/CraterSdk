@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'dagger.hilt.android.plugin'
     id 'kotlin-kapt'
+    id 'maven-publish'
 }
 
 android {
@@ -44,6 +45,26 @@ android {
     packagingOptions {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+
+    publishing {
+        singleVariant('release') {
+
+        }
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.crater.android'
+                artifactId = 'crater-sdk'
+                version = '0.1.0'
+            }
         }
     }
 }
