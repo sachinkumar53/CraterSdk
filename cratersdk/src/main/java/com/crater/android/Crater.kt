@@ -4,7 +4,7 @@ import com.google.crypto.tink.aead.AeadConfig
 
 object Crater {
 
-    fun init() {
+    fun initialize() {
         AeadConfig.register()
     }
 }

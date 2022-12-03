@@ -9,6 +9,6 @@ class MyApp : Application(){
 
     override fun onCreate() {
         super.onCreate()
-        Crater.init()
+        Crater.initialize()
     }
 }
