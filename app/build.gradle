@@ -47,12 +47,6 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
-
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-        }
-    }
 }
 
 dependencies {
@@ -79,14 +73,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-//                from components.release
-
+                from components.release_apk
                 groupId = 'com.crater.android'
                 artifactId = 'crater-sdk'
-                version = '0.1.2'
-                afterEvaluate {
-                    from components.release
-                }
+                version = '0.1.3'
             }
         }
     }
